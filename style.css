@@ -3,13 +3,14 @@ html {
      Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
    */
   font-size: 10px;
+  background-color: beige;
 }
 
 #main {
   text-align: center;
   font-size: 2rem;
   font-family: "Lato", sans-serif;
-  width: 100%;
+  width: 80%;
   margin: auto;
 } 
 
