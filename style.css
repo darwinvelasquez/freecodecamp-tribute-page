@@ -11,14 +11,25 @@ html {
   font-size: 2rem;
   font-family: "Lato", sans-serif;
   width: 80%;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 } 
+
+@media (max-width: 768px) {
+  #main {
+    width: 95%;
+  }
+  img {
+    max-width: 80%;
+  }
+}
 
 #tribute-info {
   text-align: left;
 }
 
-#image {
+img {
   max-width: 100%;
   height: auto;
   margin-left: auto;
