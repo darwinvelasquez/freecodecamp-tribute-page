@@ -29,14 +29,18 @@ html {
   text-align: left;
 }
 
-img {
-  max-width: 100%;
+img #image {
+  max-width: 80%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
   padding: 10px;
   display: block;
   line-height: 1.5;
+}
+
+#image {
+  margin-left: 0;
 }
 
 figcaption {
